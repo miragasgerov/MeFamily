@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar-brand {
+    color: #24325D !important;
+}
+
+.nav-link {
+    color: #2b3c6f !important;
+}
+
+.active {
+    color: #006FBE !important;
+}
+
+
+/* Slider */
+
+.img-fluid {
+    width: 100%;
+    height: 70vh !important;
+    object-fit: cover;
+}
+
+/* My Family */
+
+.myFamily {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    color: #444444;
+}
+
+.textFamily h1 {
+    text-transform: uppercase;
+}
+
+.familyImg {
+    width: 100%;
+}
+
+.myFamily ul {
+    list-style-type: none;
+    padding: 0!important;
+}
+
+.myFamily i {
+    color: #0071C2;
+}
+
+
+.aboutFamily li {
+    margin-top: 1rem;
+}
+
+
+/* Card */
+
+.card {
+    border: none;
+}
+
+.card-item i {
+    color: #006FBE;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .5s;
+    font-size: 1.2rem;
+}
+
+
+.card-item i:hover {
+    box-shadow: rgba(0, 0, 255, 0.2) 0px 7px 29px 0px;
+
+}
+
+.card-item a {
+
+    color: #444444;
+    text-decoration: none;
+}
+
+.card-item p {
+    margin-top: 2rem;
+}
+
+
+.card-item h5 {
+    position: relative;
+    margin-top: 1.2rem;
+    color: #444444;
+    text-decoration: none;
+}
+
+.card-item h5::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #006fbe;
+    bottom: -15px;
+    left: calc(50% - 25px);
+}
+
+.cardContent {
+    margin-top: 2rem;
+}
+
+
+/* Recent Photo */
+
+.recentPhoto {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.recentText {
+    color: #444444;
+}
+
+.recentText p {
+    margin-top: 2rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1D284B;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footerAbout {
+    color: white;
+}
+
+
+.italicText {
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+.socialMedia {
+    list-style-type: none;
+}
+
+.socialMedia i {
+   background-color: rgb(0,111,190);
+   color: white;    
+   border-radius: 50%;
+   padding: .5rem;
+   margin-top: 1rem;
+}
+
+.footerAbout p {
+    margin-top: 1rem;
+}
